@@ -47,7 +47,7 @@ Tasks and plays both use the `include` keyword, but implement the keyword differ
         # this is a 'task' include
         - include: stuff.yml
 
-A 'task' include can appear anywhere a task can, but a 'play' include cannot be inside other plays only alongside them at the same level.
+A 'task' include can appear anywhere a task can, but a 'play' include cannot be inside other plays, only alongside them at the same level.
 While 'task' includes can take other parameters and have the included tasks inherit them, 'play' includes are very limited and most directives do not work.
 
 
